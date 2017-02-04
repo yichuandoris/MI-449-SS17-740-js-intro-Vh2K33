@@ -1,7 +1,11 @@
 var buttonElement = document.getElementById('my-first-button')
 
-var audioElement = document.getElementById('audio')
-
 buttonElement.addEventListener('click', function () {
-  audioElement.play()
+  console.log('I was clicked!')
 })
+
+var audio= "openhat.wav"
+
+var audioPlay =function () {
+  Play('audio')
+}
