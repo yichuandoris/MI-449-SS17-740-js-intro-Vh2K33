@@ -1,4 +1,4 @@
-//**Openhat**//
+  //**Openhat**//
 var openhatButton = document.getElementById('openhat-button')
 var openhatAudio = document.getElementById("openhat-audio");
 openhatButton.addEventListener('click', function () {
@@ -10,7 +10,7 @@ openhatButton.addEventListener('mouseenter', function () {
     openhatAudio.play();
 })
 
-//**Clap**//
+  //**Clap**//
 var clapButton = document.getElementById('clap-button')
 var clapAudio = document.getElementById("clap-audio");
 clapButton.addEventListener('click', function () {
@@ -22,7 +22,7 @@ clapButton.addEventListener('mouseenter', function () {
   clapAudio.play();
 })
 
-//**Ride**//
+  //**Ride**//
 var rideButton = document.getElementById('ride-button')
 var rideAudio = document.getElementById("ride-audio");
 rideButton.addEventListener('click', function () {
@@ -34,7 +34,7 @@ rideButton.addEventListener('mouseenter', function () {
   rideAudio.play();
 })
 
-//**Tom**//
+  //**Tom**//
 var tomButton = document.getElementById('tom-button')
 var tomAudio = document.getElementById("tom-audio");
 tomButton.addEventListener('click', function () {
